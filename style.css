@@ -1,10 +1,7 @@
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Impact', sans-serif;
+    overflow: hidden;
     background: url('images/background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
@@ -13,12 +10,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 10px 20px;
+    width: 80%;
+    padding: 10px 10%;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10%;
 }
 
 header h1 {
@@ -52,4 +49,5 @@ header a {
 
 canvas {
     border: 2px solid white;
+    background-color: #000080; /* Granatowy kolor tła */
 }
