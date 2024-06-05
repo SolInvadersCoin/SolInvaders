@@ -1,32 +1,35 @@
 body {
     margin: 0;
     font-family: 'Impact', sans-serif;
-    overflow: hidden;
+    overflow: hidden; /* Zapobiega przewijaniu strony */
     background: url('images/background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 80%;
-    padding: 10px 10%;
+    width: 100%;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
-    left: 10%;
+    left: 0;
 }
 
 header h1 {
     margin: 0;
     color: white;
+    flex: 1;
+    text-align: center;
 }
 
 header a {
     color: white;
     text-decoration: none;
     font-size: 20px;
+    margin: 0 20px;
 }
 
 #startScreen {
