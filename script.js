@@ -172,3 +172,10 @@ function keyUp(e) {
 
 document.addEventListener('keydown', keyDown);
 document.addEventListener('keyup', keyUp);
+
+// Zapobiega przewijaniu strony przy użyciu strzałek
+window.addEventListener('keydown', function(e) {
+    if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].indexOf(e.key) > -1) {
+        e.preventDefault();
+    }
+}, false);
